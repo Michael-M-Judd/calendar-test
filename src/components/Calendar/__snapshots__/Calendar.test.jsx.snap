@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar with an array of events matches previous snapshot 1`] = `
+<div>
+  <div
+    class="sc-fzXfLP bWmXfN"
+  >
+    <section
+      class="sc-AykKI kcbFWk"
+    >
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            9:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            AM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          9:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            10:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            AM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          10:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            11:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            AM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          11:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            12:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          12:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            1:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          1:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            2:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          2:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            3:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          3:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            4:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          4:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            5:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          5:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            6:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          6:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            7:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          7:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            8:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+        <div
+          class="sc-AykKG inyJRW"
+        >
+          8:30
+        </div>
+      </div>
+      <div
+        class="sc-AykKH fRddoi"
+      >
+        <div>
+          <span
+            class="sc-AykKE evPEbk"
+          >
+            9:00
+          </span>
+          <span
+            class="sc-AykKF iyMCzR"
+          >
+            PM
+          </span>
+        </div>
+      </div>
+    </section>
+    <div
+      class="sc-AykKC eEegzZ"
+    >
+      <div
+        class="sc-AykKD enFPZo"
+      >
+        <div
+          class="sc-fzXfLQ eIZBgA"
+          order="0"
+        >
+          <div
+            class="sc-AykKJ dhXSzc"
+            data-testid="event-card:30:150"
+            height="120"
+          >
+            <span
+              class="sc-AykKK kcmvZX"
+            >
+              Sample Item
+            </span>
+            <span
+              class="sc-fzXfLO iZACWc"
+            >
+              Sample Location
+            </span>
+          </div>
+        </div>
+        <div
+          class="sc-fzXfLQ dnRQni"
+          order="0"
+        >
+          <div
+            class="sc-AykKJ jgKNzI"
+            data-testid="event-card:540:600"
+            height="60"
+          >
+            <span
+              class="sc-AykKK kcmvZX"
+            >
+              Sample Item
+            </span>
+            <span
+              class="sc-fzXfLO iZACWc"
+            >
+              Sample Location
+            </span>
+          </div>
+        </div>
+        <div
+          class="sc-fzXfLQ eEEbui"
+          order="1"
+        >
+          <div
+            class="sc-AykKJ jgKNzI"
+            data-testid="event-card:560:620"
+            height="60"
+          >
+            <span
+              class="sc-AykKK kcmvZX"
+            >
+              Sample Item
+            </span>
+            <span
+              class="sc-fzXfLO iZACWc"
+            >
+              Sample Location
+            </span>
+          </div>
+        </div>
+        <div
+          class="sc-fzXfLQ gjhooZ"
+          order="2"
+        >
+          <div
+            class="sc-AykKJ jgKNzI"
+            data-testid="event-card:610:670"
+            height="60"
+          >
+            <span
+              class="sc-AykKK kcmvZX"
+            >
+              Sample Item
+            </span>
+            <span
+              class="sc-fzXfLO iZACWc"
+            >
+              Sample Location
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

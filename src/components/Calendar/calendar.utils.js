@@ -12,11 +12,19 @@ export const getEventHeight = ({ start, end }) => {
 /**
  * Finds the absolute position for a calendar event.
  */
-export const getEventPosition = (event, previousColumnEvent) => {
+export const getEventPosition = (event, groupedEvents) => {
   const baseEventPosition = (event.start / hourLength) * hourBlockHeight;
 
-  if (previousColumnEvent && previousColumnEvent.end < event.start) {
+  const otherEvents = groupedEvents.filter(
+    groupedEvent => groupedEvent !== event
+  );
+
+  const overlappingEvent = () => {}; // TODO
+
+  if (previousColumnEvent && previousColumnEvent.end <= event.start) {
+    console.log("hello");
     const overlapDistance = event.start - previousColumnEvent.end;
+    console.log({ overlapDistance });
 
     return baseEventPosition + overlapDistance;
   }
@@ -37,7 +45,7 @@ const findLatestEvent = events =>
   );
 
 /**
- * Finds all overlapping events and puts them together in an array
+ * Finds all overlapping events and groups them together in an array
  * @returns {Event[][]}
  */
 export const getOverlappingEvents = events => {
@@ -64,6 +72,8 @@ export const getOverlappingEvents = events => {
       }
     }
   });
+
+  console.log(eventGroups);
 
   return eventGroups;
 };

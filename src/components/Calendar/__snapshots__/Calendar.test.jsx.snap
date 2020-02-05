@@ -3,7 +3,7 @@
 exports[`Calendar with an array of events matches previous snapshot 1`] = `
 <div>
   <div
-    class="sc-fzXfLP bWmXfN"
+    class="sc-fzXfLQ bXEwMe"
   >
     <section
       class="sc-AykKI kcbFWk"
@@ -284,11 +284,11 @@ exports[`Calendar with an array of events matches previous snapshot 1`] = `
         class="sc-AykKD enFPZo"
       >
         <div
-          class="sc-fzXfLQ eIZBgA"
+          class="sc-fzXfLP jEQiaH"
           order="0"
         >
           <div
-            class="sc-AykKJ dhXSzc"
+            class="sc-AykKJ kLaowu"
             data-testid="event-card:30:150"
             height="120"
           >
@@ -305,11 +305,11 @@ exports[`Calendar with an array of events matches previous snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-fzXfLQ dnRQni"
+          class="sc-fzXfLP ijIxhp"
           order="0"
         >
           <div
-            class="sc-AykKJ jgKNzI"
+            class="sc-AykKJ lmblSj"
             data-testid="event-card:540:600"
             height="60"
           >
@@ -326,11 +326,11 @@ exports[`Calendar with an array of events matches previous snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-fzXfLQ eEEbui"
+          class="sc-fzXfLP hANstl"
           order="1"
         >
           <div
-            class="sc-AykKJ jgKNzI"
+            class="sc-AykKJ lmblSj"
             data-testid="event-card:560:620"
             height="60"
           >
@@ -347,11 +347,11 @@ exports[`Calendar with an array of events matches previous snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-fzXfLQ gjhooZ"
+          class="sc-fzXfLP dshTSj"
           order="2"
         >
           <div
-            class="sc-AykKJ jgKNzI"
+            class="sc-AykKJ lmblSj"
             data-testid="event-card:610:670"
             height="60"
           >

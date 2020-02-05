@@ -13,7 +13,7 @@ const events = [
 describe("Calendar", () => {
   describe("with an array of events", () => {
     it("renders all the events", () => {
-      const { getByTestId } = render(<Calendar />);
+      const { getByTestId } = render(<Calendar initialEvents={events} />);
 
       events.forEach(event => {
         expect(getByTestId(testKey(event))).toBeInTheDocument();
@@ -22,7 +22,7 @@ describe("Calendar", () => {
 
     // I would usually use screenshot tests here rather than snapshots
     it("matches previous snapshot", () => {
-      const { container } = render(<Calendar />);
+      const { container } = render(<Calendar initialEvents={events} />);
 
       expect(container).toMatchSnapshot();
     });

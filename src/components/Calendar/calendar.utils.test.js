@@ -1,6 +1,6 @@
 import {
   getEventHeight,
-  getEventPosition,
+  getEventYPosition,
   getOverlappingEvents
 } from "./calendar.utils";
 
@@ -15,21 +15,23 @@ describe("Calendar/calendar.utils", () => {
     });
   });
 
-  describe("getEventPosition", () => {
+  describe("getEventYPosition", () => {
     describe("with a valid event", () => {
       describe("with no previous event", () => {
         const previousColumnEvent = undefined;
 
         it("returns the correct position", () => {
-          expect(getEventPosition(event, previousColumnEvent)).toEqual(30);
+          expect(getEventYPosition({ event, previousColumnEvent })).toEqual(30);
         });
       });
 
       describe("with a previous column event that overlaps", () => {
-        const previousColumnEvent = { start: 10, end: 20 };
+        const previousColumnEvent = { start: 30, end: 200 };
 
         it("returns the correct position", () => {
-          expect(getEventPosition(event, previousColumnEvent)).toEqual(40);
+          expect(getEventYPosition({ event, previousColumnEvent })).toEqual(
+            210
+          );
         });
       });
 
@@ -40,7 +42,7 @@ describe("Calendar/calendar.utils", () => {
         };
 
         it("returns the correct position", () => {
-          expect(getEventPosition(event, previousColumnEvent)).toEqual(30);
+          expect(getEventYPosition({ event, previousColumnEvent })).toEqual(30);
         });
       });
     });

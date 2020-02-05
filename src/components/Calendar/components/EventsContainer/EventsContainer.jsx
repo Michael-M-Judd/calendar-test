@@ -14,7 +14,7 @@ const RelativeContainer = styled.div`
   width: 100%;
 `;
 
-export const EventContainer = ({ children }) => (
+export const EventsContainer = ({ children }) => (
   <StyledDiv>
     <RelativeContainer>{children}</RelativeContainer>
   </StyledDiv>

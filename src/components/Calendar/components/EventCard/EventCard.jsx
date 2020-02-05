@@ -21,7 +21,7 @@ const StyledCard = styled.div`
   border-radius: 0 2px 2px 0;
   display: flex;
   flex-direction: column;
-  height: ${props => props.height * 0.9}px;
+  height: ${props => props.height * 0.8}px;
   padding: 10px;
   position: relative;
   margin: 0 5px;
